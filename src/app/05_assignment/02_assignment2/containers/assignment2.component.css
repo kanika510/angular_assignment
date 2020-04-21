@@ -1,0 +1,14 @@
+.your-code {
+  margin-top: 40px;
+  border: 2px solid darkmagenta;
+}
+
+.active {
+  background-color: #0c5460;
+}
+
+.todoTable tr.selected{
+  background-color: gray;
+  color: black;
+  cursor: pointer;
+}

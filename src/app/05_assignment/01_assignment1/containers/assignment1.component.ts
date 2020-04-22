@@ -6,7 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./assignment1.component.css']
 })
 export class Assignment1Component {
-  show(first: HTMLInputElement){
-    return first.value;
-}
+ 
+    inputValue: string;
+     
+    onType(inputValue: string){  
+      this.inputValue =" "+ inputValue;
+    }
 }
